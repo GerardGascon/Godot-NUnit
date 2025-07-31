@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project", "project\Project.csproj", "{BCE58DF3-1F52-435A-A065-F3A2EDDAE123}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{05F2D463-69BE-4DFF-8E23-FF16B7EFD049}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{15876121-434F-402E-B037-7B2CF0B3D6E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,9 @@ Global
 		{BCE58DF3-1F52-435A-A065-F3A2EDDAE123}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCE58DF3-1F52-435A-A065-F3A2EDDAE123}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{BCE58DF3-1F52-435A-A065-F3A2EDDAE123}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCE58DF3-1F52-435A-A065-F3A2EDDAE123} = {05F2D463-69BE-4DFF-8E23-FF16B7EFD049}
+		{1545659A-D76C-4321-BE95-25343CFD78FF} = {15876121-434F-402E-B037-7B2CF0B3D6E9}
 	EndGlobalSection
 EndGlobal

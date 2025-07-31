@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="Project"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/name="MyGame"
+config/features=PackedStringArray("4.4", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]
